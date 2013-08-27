@@ -21,149 +21,197 @@
 <div id="impress">
     <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
         <span class="welcome">Welcome to</span>
-        <img class="scaling" height="150px" src="images/acm.png"/><span class="title">Penn State ACM</span>
-        <span class="subtitle positioning">Fall 2013</span>
+        <img class="scaling" height="100px" src="images/acm.png"/><span id="title">Penn State ACM</span>
     </div>
 
-    <div id="acm" class="step" data-x="600" data-y="1800" data-rotate="90" data-scale="6">
-        <p><span class="small">Organized by:</span>
+    <div id="kickoff" class="step" data-x="0" data-y="0" data-rotate-x="90" data-scale="4">
+        <span class="welcome">Fall 2013 Kickoff Meeting</span>
+    </div>
+
+    <div id="mission" class="step" data-x="5000" data-y="0" data-scale="4">
+        Who/what is the ACM?
         <br />
-        Penn State
-        <br /><br />
-        <img class="scaling" height="150px" src="images/acm.png"/>
-        <img class="scaling" height="150px" src="images/awc.png"/></p>
+        <img width="700px" src="images/group.jpg" style="border-radius: 10px"/>
     </div>
 
-    <div id="sponsors" class="step" data-x="1900" data-y="1800" data-z="-3000" data-rotate="300" data-scale="1">
-        <p>and sponsored by:</p>
-        <table>
-            <tr>
-                <td><img class="google"    height="150px" src="images/google.png"/></td>
-                <td><img class="microsoft" height="125px" src="images/microsoft.png"/></td>
-            </tr><tr>
-                <td><img class="accenture" height="150px" src="images/accenture.png"/></td>
-                <td><img class="cap_one"   height="150px" src="images/cap_one.png"/></td>
-            </tr><tr>
-                <td colspan="2" align="center"><img class="booz" height="150px" src="images/booz.jpg"/></td>
-            </tr>
-        </table>
-    </div>
-
-    <div id="food" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>Before we start, check in if you haven't done so. We'll match up those without teams in a bit.</p>
-    </div>
-
-    <div id="tech_start" class="step" data-x="7600" data-y="-300" data-scale="6">
-        <p>Let's go over a few technical items to avoid confusion.</p>
-    </div>
-
-    <div class="step technical" data-x="7600" data-y="1000" data-rotate-x="90" data-scale="4">
-        <p>You should have 1 laptop for your team that is ready to go for writing C, C++, or Java.</p>
-    </div>
-
-    <div class="step technical" data-x="7600" data-y="6000" data-rotate-x="100" data-scale="4">
-        <p>Your code will be compiled on Linux, but it's just fine to work on Windows or Mac.
-        <br />
-        <span class="small">We'll only be using standard libraries anyway.</span></p>
-    </div>
-
-    <div class="step technical" data-x="7600" data-y="7000" data-rotate-z="90" data-scale="4">
-        <p>All submissions are subject to a secret time limit; take too long, and your process is killed.
-        <br />
-        <span class="small">Hint: Efficient code.</span></p>
-    </div>
-
-    <div class="step technical" data-x="8000" data-y="10000" data-rotate-z="180" data-scale="4">
-        <p>If you use C or C++, you must use `int main()` rather than `void main()` and <span class="never">NEVER</span> use `system("pause")`.</p>
-    </div>
-
-    <div class="step technical" data-x="7600" data-y="12000" data-rotate-x="150" data-scale="4">
-        <p>Do not prompt for input. Anything your program prints is considered output and will be judged.</p>
-    </div>
-
-    <div class="step technical" data-x="7600" data-y="14000" data-rotate-x="160" data-scale="4">
-        <p>Read each problem carefully and pay attention to the given input bounds.</p>
-    </div>
-
-    <div class="step technical" data-x="3000" data-y="14000" data-rotate-x="160" data-rotate-y="180" data-scale="4">
-        <p>Finally, remember that competition programming problems are difficult. Persistence pays off here.</p>
-    </div>
-
-    <div class="step" data-x="1000" data-y="4000" data-scale="4">
-        <p>For returning CodePSU competitors, we've made a few changes since last fall.</p>
-    </div>
-
-    <div class="step" data-x="1000" data-y="5500" data-rotate-y="-20"  data-scale="4">
-        <p>We've switched to the submission system used in the international ACM ICPC competition.
-        <br />
-        <span class="small">Bye CodePSU Drupal module :(</span></p>
-    </div>
-
-    <div class="step" data-x="1000" data-y="7000" data-rotate-y="-40"  data-scale="4">
-        <p>In order to be more like the ACM's ICPC, all problems are weighted equally.</p>
-    </div>
-
-    <div class="step" data-x="1000" data-y="8500" data-rotate-y="-60" data-scale="4">
-        <p>The submission system needs Java <strong>JDK</strong> installed on your computer to run. It's a big download, so do that now if you haven't already.</p>
-    </div>
-
-    <div class="step" data-x="1000" data-y="10000" data-rotate-y="-80" data-scale="4">
-        <p>You'll also need to download the submission system from http://acm.psu.edu/sites/all/files/codepsu-submissions-teams.zip.
-        <br />
-        <span class="small">We'll go over this. Don't worry if you don't catch that long URL.</span></p>
-    </div>
-
-    <div class="step" data-x="-3000" data-y="5000" data-z="1000" data-rotate-x="50" data-scale="4">
-        <p>Here's a quick timeline:
+    <div id="officers" class="step" data-x="4500" data-y="0" data-rotate-y="180" data-scale="4">
+        Officers
+        <p>
             <ul>
-                <li>1.00-1.20: Check-in</li>
-                <li>1.20-1.45: Sponsor presentations</li>
-                <li>1.45-2.00: Submission system demo</li>
-                <li>2.00-6.00: Competition</li>
-                <li>6.00-7.00: Dinner and prizes</li>
+                <li>President: Gage Ames</li>
+                <li>Vice President: Max Spangler</li>
+                <li>Secretary: Grace Lee</li>
+                <li>Treasurer: Joe Donofry</li>
+                <li>Corporate Relations: Chris Seltzer</li>
+                <li>Webmaster: Sean Curran</li>
+                <li>Liaison: Shane Tully</li>
             </ul>
         </p>
     </div>
 
-    <div id="curious" class="step" data-x="-4000" data-y="2000" data-rotate="-90" data-scale="4">
-        <p>Curious about how all this works?<br />
-            <span class="small">Sure you are!</span>
+    <div id="schedule" class="step" data-x="5000" data-y="0" data-rotate-x="90" data-scale="4">
+        <p>The <strong>tenative</strong> schedule:
+            <ul>
+                <li>8/28  - First meeting, intro to ACM</li>
+                <li>9/4   - Resume help</li>
+                <li>9/11  - Interview / Core CS help / Mock interviews (by appointment)</li>
+                <li>9/18  - Networking workshop</li>
+                <li>9/25  - Project showcase</li>
+                <li>10/2  - Course scheduling meeting</li>
+                <li>10/9  - Flask workshop</li>
+                <li>10/16 - CodePSU prep meeting / ICPC kickoff (CodePSU on 10/19)</li>
+                <li>11/6  - Trivia night</li>
+                <li>11/8  - Broomball on Friday</li>
+                <li>11/13 - Crypto workshop</li>
+                <li>11/27 - Thanksgiving break</li>
+                <li>12/4  - UI workshop</li>
+                <li>12/7  - Puzzle day</li>
+                <li>12/11 - Finals study break / Elections</li>
+            </ul>
         </p>
     </div>
 
-    <div id="source" class="step" data-x="-4000" data-y="2000" data-rotate="180" data-rotate-y="-90" data-scale="4">
-        <p>ecs.csus.edu/pc2<br />
-            <span class="small scaling">or for this intro: github.com/shanet/codepsu-intro</span>
+    <div id="codepsu" class="step" data-x="5000" data-y="3000" data-scale="4">
+        <div align="center"><img class="rotating" src="images/codepsu_wheel.png"/></div>
+        <div align="center"><img id="codepsu_text" src="images/codepsu_text.png"/></div>
+        <p>
+            <ul>
+                <li>Competitive programming competition</li>
+                <li>Hundreds of dollars in prizes</li>
+                <li>Catered (free) food</li>
+                <li>Corporate sponsorship</li>
+            </ul>
         </p>
     </div>
 
-
-    <div class="step" data-x="-4000" data-y="0" data-rotate="180" data-scale="4">
-        <p>We have hundreds of dollars in prizes, Microsoft prizes, and CodePSU shirts to give away.</p>
+    <div class="step" data-x="2000" data-y="3000" data-scale="4">
+        Mentoring
+        <br />
+        <span class="small">Freshmen and sophomores: Get a mentor!</span>
+        <br />
+        <span class="small">Juniors and seniors: Be a mentor!</span>
+        <br />
+        <span class="small">Bi-weekly meetings</span>
     </div>
 
-    <div class="step" data-x="-4000" data-y="0" data-rotate-x="90" data-rotate="180" data-scale="4">
-        <p>So get ready! We'll be starting soon.</p>
+    <div class="step" data-x="-1000" data-y="3000" data-scale="4">
+        Career Help
+        <br />
+        <span class="small">Resume and interview workshops</span>
+        <br />
+        <span class="small">Mock interviews</span>
     </div>
+
+    <div class="step" data-x="-4000" data-y="3000" data-rotate-x="180" data-scale="4">
+        Workshops
+        <br />
+        <span class="small">Revamped and better than ever.</span>
+    </div>
+
+    <div class="step" data-x="-4000" data-y="2000" data-rotate-x="180" data-rotate-y="20" data-scale="4">
+        Networking
+        <br />
+        <span class="small">Learn how to send junk across the network.</span>
+    </div>
+
+    <div class="step" data-x="-4000" data-y="1000" data-rotate-x="180" data-rotate-y="40" data-scale="4">
+        Flask
+        <br />
+        <span class="small">Web apps. Python style.</span>
+    </div>
+
+    <div class="step" data-x="-4000" data-y="0" data-rotate-x="180" data-rotate-y="60" data-scale="4">
+        iOS (maybe)
+        <br />
+        <span class="small">Want to learn Objective-C?</span>
+    </div>
+
+    <div class="step" data-x="-4000" data-y="-1000" data-rotate-x="180" data-rotate-y="80" data-scale="4">
+        Intro to cryptography and encryption (aka: lol, NSA)
+        <br />
+        <span class="small">The art of keeping private things private.</span>
+    </div>
+
+    <div class="step" data-x="-4000" data-y="-2000" data-rotate-x="180" data-rotate-y="100" data-scale="4">
+        UI and UX
+        <br />
+        <span class="small">Because a beautiful backend is useless without a frontend.</span>
+    </div>
+
+    <div class="step" data-x="-3000" data-y="-3000" data-scale="4">
+        Puzzle Day
+        <br />
+        Add stuff here plz!
+    </div>
+
+    <div class="step" data-x="-3500" data-y="-4500" data-scale="4">
+        Broomball!
+        <br />
+        <span class="small">Ice + brooms + balls + no skates + engineers</span>
+        <br />
+        <img width="700px" src="images/broomball.jpg" style="border-radius: 10px"/>
+    </div>
+
+    <div class="step" data-x="0" data-y="-4000" data-rotate-y="45" data-scale="4">
+        Project showcase
+        <br />
+        <span class="small">Show off what you've been working on.</span>
+    </div>
+
+    <div class="step" data-x="4000" data-y="-4000" data-scale="4">
+        Trivia Night
+        <br />
+        <span class="small">Candy and obscure questions about software and hardware no one cares enough to know.</span>
+    </div>
+
+    <div class="step" data-x="4000" data-y="-3000" data-rotate="180" ata-scale="4">
+        Check-in Points
+        <br />
+        <span class="small">Where everything's made up and the points don't matter.</span>
+    </div>
+
+    <div class="step" data-x="4000" data-y="-2500" data-z="1000" data-rotate-y="180" data-scale="4">
+        Elections
+        <br />
+        <span class="small">Want to be an officer? All officer positions are up for election in December.</span>
+    </div>
+
+    <div class="step" data-x="8000" data-y="-2500" data-z="3000" data-scale="4">
+        <img src="images/awc.png" />
+        <br />
+        <span class="small">Check out the AWC too.</span>
+    </div>
+
 
     <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="15"></div>
 
 </div>
 
-<audio id="audio" loop="loop">
-  <source src="music/1.mp3" type="audio/mp3">
-</audio>
-
 <script src="js/impress.js"></script>
 <script>
     function nextStep() {
-        impress().next();
-        setTimeout("nextStep()", 5000);
+        if(looping) {
+            if(step == 1) {
+                impress().goto(0);
+                step = 0;
+            } else {
+                impress().goto(1);
+                step = 1;
+            }
+            setTimeout("nextStep()", 2000);
+        }
     }
+
+    function exitLoop() {
+        impress().goto(0);
+        looping = false;
+    }
+
+    var looping = false;
+    var step = 0;
         
     impress().init();
-    //document.getElementById("audio").play();
-    //setTimeout("nextStep()", 5000);
+    setTimeout("nextStep()", 5000);
 </script>
 
 </body>

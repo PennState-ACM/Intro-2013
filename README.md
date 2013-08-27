@@ -1,14 +1,12 @@
-# CodePSU Intro
+# Penn State ACM Fall 2013 Intro
 ### Shane Tully (shane@shanetully.com)
 ### shanetully.com | acm.psu.edu
 
-An impress.js presentation for the introduction of CodePSU.
-
-Looking for the CodePSU Drupal module code? [Look no further](https://github.com/shanet/CodePSU).
+An impress.js presentation for the introduction of the Penn State ACM for the fall 2013 semester.
 
 ## About
 
-The CodePSU intro is a simple [impress.js](https://github.com/bartaz/impress.js/) presentation used before CodePSU events start.
+The ACM intro is a simple [impress.js](https://github.com/bartaz/impress.js/) presentation.
 
 ## Usage
 
