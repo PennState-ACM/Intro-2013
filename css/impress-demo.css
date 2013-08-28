@@ -233,6 +233,11 @@ a:focus {
     padding: 0.2em;
 }
 
+#coding-challenges li {
+    font-size: 50%;
+    padding: 0.2em;
+}
+
 #codepsu.present .rotating {
     -webkit-transform: rotate(360deg);
     -moz-transform:    rotate(360deg);
